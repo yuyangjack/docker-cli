@@ -14,9 +14,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/image/build"
-	cliconfig "github.com/docker/cli/cli/config"
+	"github.com/yuyangjack/docker-cli/cli/command"
+	"github.com/yuyangjack/docker-cli/cli/command/image/build"
+	cliconfig "github.com/yuyangjack/docker-cli/cli/config"
 	"github.com/docker/docker/api/types/versions"
 	"github.com/docker/docker/pkg/progress"
 	"github.com/moby/buildkit/session"

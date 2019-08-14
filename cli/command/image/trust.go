@@ -8,8 +8,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/trust"
+	"github.com/yuyangjack/docker-cli/cli/command"
+	"github.com/yuyangjack/docker-cli/cli/trust"
 	"github.com/yuyangjack/distribution/reference"
 	"github.com/docker/docker/api/types"
 	registrytypes "github.com/docker/docker/api/types/registry"

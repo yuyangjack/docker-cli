@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	servicecli "github.com/docker/cli/cli/command/service"
-	composetypes "github.com/docker/cli/cli/compose/types"
-	"github.com/docker/cli/opts"
+	servicecli "github.com/yuyangjack/docker-cli/cli/command/service"
+	composetypes "github.com/yuyangjack/docker-cli/cli/compose/types"
+	"github.com/yuyangjack/docker-cli/opts"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/swarm"
 	"github.com/docker/docker/api/types/versions"

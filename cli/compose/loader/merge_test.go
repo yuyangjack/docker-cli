@@ -3,7 +3,7 @@ package loader
 import (
 	"testing"
 
-	"github.com/docker/cli/cli/compose/types"
+	"github.com/yuyangjack/docker-cli/cli/compose/types"
 	"gotest.tools/assert"
 )
 

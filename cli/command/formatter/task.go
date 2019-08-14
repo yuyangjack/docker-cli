@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/cli/cli/command"
+	"github.com/yuyangjack/docker-cli/cli/command"
 	"github.com/yuyangjack/distribution/reference"
 	"github.com/docker/docker/api/types/swarm"
 	"github.com/docker/docker/pkg/stringid"

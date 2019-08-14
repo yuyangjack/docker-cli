@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/formatter"
-	"github.com/docker/cli/cli/command/service"
-	"github.com/docker/cli/cli/command/stack/options"
+	"github.com/yuyangjack/docker-cli/cli/command"
+	"github.com/yuyangjack/docker-cli/cli/command/formatter"
+	"github.com/yuyangjack/docker-cli/cli/command/service"
+	"github.com/yuyangjack/docker-cli/cli/command/stack/options"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/filters"
 )

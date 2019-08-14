@@ -3,7 +3,7 @@ package informers
 import (
 	"fmt"
 
-	"github.com/docker/cli/kubernetes/compose/v1beta2"
+	"github.com/yuyangjack/docker-cli/kubernetes/compose/v1beta2"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/tools/cache"
 )

@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/cli/internal/licenseutils"
-	"github.com/docker/cli/internal/test"
-	clitypes "github.com/docker/cli/types"
+	"github.com/yuyangjack/docker-cli/internal/licenseutils"
+	"github.com/yuyangjack/docker-cli/internal/test"
+	clitypes "github.com/yuyangjack/docker-cli/types"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 	"github.com/docker/licensing"

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/docker/cli/cli/config/credentials"
+	"github.com/yuyangjack/docker-cli/cli/config/credentials"
 	"github.com/docker/docker/api/types"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

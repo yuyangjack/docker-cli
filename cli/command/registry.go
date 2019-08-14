@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/docker/cli/cli/debug"
+	"github.com/yuyangjack/docker-cli/cli/debug"
 	"github.com/yuyangjack/distribution/reference"
 	"github.com/docker/docker/api/types"
 	registrytypes "github.com/docker/docker/api/types/registry"

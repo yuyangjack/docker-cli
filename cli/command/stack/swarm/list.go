@@ -3,9 +3,9 @@ package swarm
 import (
 	"context"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/formatter"
-	"github.com/docker/cli/cli/compose/convert"
+	"github.com/yuyangjack/docker-cli/cli/command"
+	"github.com/yuyangjack/docker-cli/cli/command/formatter"
+	"github.com/yuyangjack/docker-cli/cli/compose/convert"
 	"github.com/docker/docker/api/types"
 	"github.com/pkg/errors"
 )

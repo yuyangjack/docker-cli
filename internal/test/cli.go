@@ -7,12 +7,12 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/config/configfile"
-	manifeststore "github.com/docker/cli/cli/manifest/store"
-	registryclient "github.com/docker/cli/cli/registry/client"
-	"github.com/docker/cli/cli/trust"
-	clitypes "github.com/docker/cli/types"
+	"github.com/yuyangjack/docker-cli/cli/command"
+	"github.com/yuyangjack/docker-cli/cli/config/configfile"
+	manifeststore "github.com/yuyangjack/docker-cli/cli/manifest/store"
+	registryclient "github.com/yuyangjack/docker-cli/cli/registry/client"
+	"github.com/yuyangjack/docker-cli/cli/trust"
+	clitypes "github.com/yuyangjack/docker-cli/types"
 	"github.com/docker/docker/client"
 	notaryclient "github.com/theupdateframework/notary/client"
 )

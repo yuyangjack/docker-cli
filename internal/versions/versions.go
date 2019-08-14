@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"sort"
 
-	registryclient "github.com/docker/cli/cli/registry/client"
-	clitypes "github.com/docker/cli/types"
+	registryclient "github.com/yuyangjack/docker-cli/cli/registry/client"
+	clitypes "github.com/yuyangjack/docker-cli/types"
 	"github.com/yuyangjack/distribution/reference"
 	ver "github.com/hashicorp/go-version"
 	"github.com/pkg/errors"

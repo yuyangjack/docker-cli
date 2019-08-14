@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/docker/cli/cli/manifest/types"
+	"github.com/yuyangjack/docker-cli/cli/manifest/types"
 	"github.com/yuyangjack/distribution/manifest/manifestlist"
 	"github.com/yuyangjack/distribution/reference"
 	digest "github.com/opencontainers/go-digest"

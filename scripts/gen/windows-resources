@@ -6,7 +6,7 @@
 set -eu -o pipefail
 
 SCRIPTDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-# shellcheck source=/go/src/github.com/docker/cli/scripts/build/.variables
+# shellcheck source=/go/src/github.com/yuyangjack/docker-cli/scripts/build/.variables
 source "$SCRIPTDIR"/../build/.variables
 
 RESOURCES=$SCRIPTDIR/../winresources

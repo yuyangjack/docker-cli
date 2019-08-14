@@ -4,11 +4,11 @@ import (
 	"context"
 	"io/ioutil"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/formatter"
-	"github.com/docker/cli/opts"
-	"github.com/docker/cli/templates"
+	"github.com/yuyangjack/docker-cli/cli"
+	"github.com/yuyangjack/docker-cli/cli/command"
+	"github.com/yuyangjack/docker-cli/cli/command/formatter"
+	"github.com/yuyangjack/docker-cli/opts"
+	"github.com/yuyangjack/docker-cli/templates"
 	"github.com/docker/docker/api/types"
 	"github.com/spf13/cobra"
 )

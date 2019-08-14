@@ -17,8 +17,8 @@ RUN     go get -d github.com/mjibson/esc && \
         rm -rf /go/src/* /go/pkg/* /go/bin/*
 
 ENV     CGO_ENABLED=0 \
-        PATH=$PATH:/go/src/github.com/docker/cli/build \
+        PATH=$PATH:/go/src/github.com/yuyangjack/docker-cli/build \
         DISABLE_WARN_OUTSIDE_CONTAINER=1
-WORKDIR /go/src/github.com/docker/cli
+WORKDIR /go/src/github.com/yuyangjack/docker-cli
 CMD     sh
 COPY    . .

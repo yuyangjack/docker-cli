@@ -6,9 +6,9 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/opts"
+	"github.com/yuyangjack/docker-cli/cli"
+	"github.com/yuyangjack/docker-cli/cli/command"
+	"github.com/yuyangjack/docker-cli/opts"
 	"github.com/docker/docker/api/types/swarm"
 	"github.com/docker/docker/pkg/system"
 	"github.com/pkg/errors"

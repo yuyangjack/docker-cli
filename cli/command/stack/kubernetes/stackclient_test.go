@@ -4,7 +4,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	composetypes "github.com/docker/cli/cli/compose/types"
+	composetypes "github.com/yuyangjack/docker-cli/cli/compose/types"
 	"gotest.tools/assert"
 )
 

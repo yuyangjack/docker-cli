@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	manifesttypes "github.com/docker/cli/cli/manifest/types"
-	"github.com/docker/cli/internal/test"
+	manifesttypes "github.com/yuyangjack/docker-cli/cli/manifest/types"
+	"github.com/yuyangjack/docker-cli/internal/test"
 	"github.com/yuyangjack/distribution"
 	"github.com/yuyangjack/distribution/reference"
 	"github.com/docker/docker/api/types"

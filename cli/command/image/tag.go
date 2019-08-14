@@ -3,8 +3,8 @@ package image
 import (
 	"context"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
+	"github.com/yuyangjack/docker-cli/cli"
+	"github.com/yuyangjack/docker-cli/cli/command"
 	"github.com/spf13/cobra"
 )
 

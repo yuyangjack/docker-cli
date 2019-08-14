@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
+	"github.com/yuyangjack/docker-cli/cli"
+	"github.com/yuyangjack/docker-cli/cli/command"
 	"github.com/yuyangjack/distribution/reference"
 	"github.com/docker/docker/pkg/jsonmessage"
 	"github.com/pkg/errors"

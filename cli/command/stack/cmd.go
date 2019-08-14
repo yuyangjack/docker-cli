@@ -6,10 +6,10 @@ import (
 	"io"
 	"strings"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	cliconfig "github.com/docker/cli/cli/config"
-	"github.com/docker/cli/cli/config/configfile"
+	"github.com/yuyangjack/docker-cli/cli"
+	"github.com/yuyangjack/docker-cli/cli/command"
+	cliconfig "github.com/yuyangjack/docker-cli/cli/config"
+	"github.com/yuyangjack/docker-cli/cli/config/configfile"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 )

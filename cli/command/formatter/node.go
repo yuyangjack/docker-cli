@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/inspect"
+	"github.com/yuyangjack/docker-cli/cli/command"
+	"github.com/yuyangjack/docker-cli/cli/command/inspect"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/swarm"
 	units "github.com/docker/go-units"

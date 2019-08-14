@@ -3,9 +3,9 @@ package network
 import (
 	"context"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/opts"
+	"github.com/yuyangjack/docker-cli/cli"
+	"github.com/yuyangjack/docker-cli/cli/command"
+	"github.com/yuyangjack/docker-cli/opts"
 	"github.com/docker/docker/api/types/network"
 	"github.com/spf13/cobra"
 )

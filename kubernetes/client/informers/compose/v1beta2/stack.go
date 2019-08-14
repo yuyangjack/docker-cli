@@ -3,10 +3,10 @@ package v1beta2
 import (
 	"time"
 
-	"github.com/docker/cli/kubernetes/client/clientset"
-	"github.com/docker/cli/kubernetes/client/informers/internalinterfaces"
-	"github.com/docker/cli/kubernetes/client/listers/compose/v1beta2"
-	compose_v1beta2 "github.com/docker/cli/kubernetes/compose/v1beta2"
+	"github.com/yuyangjack/docker-cli/kubernetes/client/clientset"
+	"github.com/yuyangjack/docker-cli/kubernetes/client/informers/internalinterfaces"
+	"github.com/yuyangjack/docker-cli/kubernetes/client/listers/compose/v1beta2"
+	compose_v1beta2 "github.com/yuyangjack/docker-cli/kubernetes/compose/v1beta2"
 	"k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"

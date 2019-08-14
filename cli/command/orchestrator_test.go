@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	cliconfig "github.com/docker/cli/cli/config"
-	"github.com/docker/cli/cli/flags"
+	cliconfig "github.com/yuyangjack/docker-cli/cli/config"
+	"github.com/yuyangjack/docker-cli/cli/flags"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/env"

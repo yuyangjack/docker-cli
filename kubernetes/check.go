@@ -1,8 +1,8 @@
 package kubernetes
 
 import (
-	apiv1beta1 "github.com/docker/cli/kubernetes/compose/v1beta1"
-	apiv1beta2 "github.com/docker/cli/kubernetes/compose/v1beta2"
+	apiv1beta1 "github.com/yuyangjack/docker-cli/kubernetes/compose/v1beta1"
+	apiv1beta2 "github.com/yuyangjack/docker-cli/kubernetes/compose/v1beta2"
 	"github.com/pkg/errors"
 	apimachinerymetav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

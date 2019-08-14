@@ -9,11 +9,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/stack/options"
-	"github.com/docker/cli/cli/compose/loader"
-	"github.com/docker/cli/cli/compose/schema"
-	composetypes "github.com/docker/cli/cli/compose/types"
+	"github.com/yuyangjack/docker-cli/cli/command"
+	"github.com/yuyangjack/docker-cli/cli/command/stack/options"
+	"github.com/yuyangjack/docker-cli/cli/compose/loader"
+	"github.com/yuyangjack/docker-cli/cli/compose/schema"
+	composetypes "github.com/yuyangjack/docker-cli/cli/compose/types"
 	"github.com/pkg/errors"
 )
 

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/docker/cli/e2e/internal/fixtures"
-	"github.com/docker/cli/internal/test/environment"
+	"github.com/yuyangjack/docker-cli/e2e/internal/fixtures"
+	"github.com/yuyangjack/docker-cli/internal/test/environment"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/fs"

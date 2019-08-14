@@ -1,7 +1,7 @@
 package formatter
 
 import (
-	clitypes "github.com/docker/cli/types"
+	clitypes "github.com/yuyangjack/docker-cli/types"
 )
 
 const (

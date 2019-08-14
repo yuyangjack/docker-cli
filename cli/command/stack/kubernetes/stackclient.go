@@ -3,9 +3,9 @@ package kubernetes
 import (
 	"fmt"
 
-	composev1beta1 "github.com/docker/cli/kubernetes/client/clientset/typed/compose/v1beta1"
-	composev1beta2 "github.com/docker/cli/kubernetes/client/clientset/typed/compose/v1beta2"
-	"github.com/docker/cli/kubernetes/labels"
+	composev1beta1 "github.com/yuyangjack/docker-cli/kubernetes/client/clientset/typed/compose/v1beta1"
+	composev1beta2 "github.com/yuyangjack/docker-cli/kubernetes/client/clientset/typed/compose/v1beta2"
+	"github.com/yuyangjack/docker-cli/kubernetes/labels"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	corev1 "k8s.io/client-go/kubernetes/typed/core/v1"
 	"k8s.io/client-go/rest"

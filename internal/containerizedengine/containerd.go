@@ -7,7 +7,7 @@ import (
 	"github.com/containerd/containerd"
 	"github.com/containerd/containerd/images"
 	"github.com/containerd/containerd/remotes/docker"
-	clitypes "github.com/docker/cli/types"
+	clitypes "github.com/yuyangjack/docker-cli/types"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/pkg/jsonmessage"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"

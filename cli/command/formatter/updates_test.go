@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	clitypes "github.com/docker/cli/types"
+	clitypes "github.com/yuyangjack/docker-cli/types"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

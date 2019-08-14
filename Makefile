@@ -1,5 +1,5 @@
 #
-# github.com/docker/cli
+# github.com/yuyangjack/docker-cli
 #
 all: binary
 
@@ -77,7 +77,7 @@ help: ## print this help
 
 
 cli/compose/schema/bindata.go: cli/compose/schema/data/*.json
-	go generate github.com/docker/cli/cli/compose/schema
+	go generate github.com/yuyangjack/docker-cli/cli/compose/schema
 
 compose-jsonschema: cli/compose/schema/bindata.go
 	scripts/validate/check-git-diff cli/compose/schema/bindata.go

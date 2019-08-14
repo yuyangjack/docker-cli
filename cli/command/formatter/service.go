@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/cli/cli/command/inspect"
+	"github.com/yuyangjack/docker-cli/cli/command/inspect"
 	"github.com/yuyangjack/distribution/reference"
 	"github.com/docker/docker/api/types"
 	mounttypes "github.com/docker/docker/api/types/mount"

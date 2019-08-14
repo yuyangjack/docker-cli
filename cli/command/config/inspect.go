@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/formatter"
+	"github.com/yuyangjack/docker-cli/cli"
+	"github.com/yuyangjack/docker-cli/cli/command"
+	"github.com/yuyangjack/docker-cli/cli/command/formatter"
 	"github.com/spf13/cobra"
 )
 

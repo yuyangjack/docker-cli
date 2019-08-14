@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/opts"
+	"github.com/yuyangjack/docker-cli/cli"
+	"github.com/yuyangjack/docker-cli/cli/command"
+	"github.com/yuyangjack/docker-cli/opts"
 	"github.com/docker/docker/api/types/filters"
 	units "github.com/docker/go-units"
 	"github.com/pkg/errors"

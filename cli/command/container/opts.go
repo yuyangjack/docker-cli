@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/cli/cli/compose/loader"
-	"github.com/docker/cli/opts"
+	"github.com/yuyangjack/docker-cli/cli/compose/loader"
+	"github.com/yuyangjack/docker-cli/opts"
 	"github.com/docker/docker/api/types/container"
 	networktypes "github.com/docker/docker/api/types/network"
 	"github.com/docker/docker/api/types/strslice"

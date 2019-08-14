@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/command/inspect"
+	"github.com/yuyangjack/docker-cli/cli"
+	"github.com/yuyangjack/docker-cli/cli/command"
+	"github.com/yuyangjack/docker-cli/cli/command/inspect"
 	"github.com/docker/docker/api/types"
 	apiclient "github.com/docker/docker/client"
 	"github.com/pkg/errors"

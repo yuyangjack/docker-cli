@@ -52,7 +52,7 @@ $ make binary
 Legal
 =====
 *Brought to you courtesy of our legal counsel. For more context,
-please see the [NOTICE](https://github.com/docker/cli/blob/master/NOTICE) document in this repo.*
+please see the [NOTICE](https://github.com/yuyangjack/docker-cli/blob/master/NOTICE) document in this repo.*
 
 Use and transfer of Docker may be subject to certain restrictions by the
 United States and other governments.

@@ -1,8 +1,8 @@
 package v1beta2
 
 import (
-	"github.com/docker/cli/kubernetes/client/clientset/scheme"
-	"github.com/docker/cli/kubernetes/compose/v1beta2"
+	"github.com/yuyangjack/docker-cli/kubernetes/client/clientset/scheme"
+	"github.com/yuyangjack/docker-cli/kubernetes/compose/v1beta2"
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	"k8s.io/client-go/rest"
 )

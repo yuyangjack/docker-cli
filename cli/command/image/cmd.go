@@ -3,8 +3,8 @@ package image
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/docker/cli/cli"
-	"github.com/docker/cli/cli/command"
+	"github.com/yuyangjack/docker-cli/cli"
+	"github.com/yuyangjack/docker-cli/cli/command"
 )
 
 // NewImageCommand returns a cobra command for `image` subcommands

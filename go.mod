@@ -1,4 +1,4 @@
-module github.com/docker/cli
+module github.com/yuyangjack/docker-cli
 
 go 1.12
 

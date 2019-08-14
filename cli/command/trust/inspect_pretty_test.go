@@ -6,9 +6,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/docker/cli/cli/trust"
-	"github.com/docker/cli/internal/test"
-	notaryfake "github.com/docker/cli/internal/test/notary"
+	"github.com/yuyangjack/docker-cli/cli/trust"
+	"github.com/yuyangjack/docker-cli/internal/test"
+	notaryfake "github.com/yuyangjack/docker-cli/internal/test/notary"
 	dockerClient "github.com/docker/docker/client"
 	"github.com/theupdateframework/notary"
 	"github.com/theupdateframework/notary/client"

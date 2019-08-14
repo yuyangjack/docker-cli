@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/docker/cli/cli/command"
-	"github.com/docker/cli/cli/debug"
+	"github.com/yuyangjack/docker-cli/cli/command"
+	"github.com/yuyangjack/docker-cli/cli/debug"
 	"github.com/sirupsen/logrus"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/docker/cli/cli/manifest/types"
+	"github.com/yuyangjack/docker-cli/cli/manifest/types"
 	"github.com/yuyangjack/distribution"
 	"github.com/yuyangjack/distribution/manifest/manifestlist"
 	"github.com/yuyangjack/distribution/manifest/schema2"

@@ -7,7 +7,7 @@ import (
 	"github.com/docker/docker/api/types/swarm"
 	"github.com/docker/docker/client"
 	// Import builders to get the builder function as package function
-	. "github.com/docker/cli/internal/test/builders"
+	. "github.com/yuyangjack/docker-cli/internal/test/builders"
 )
 
 type fakeClient struct {

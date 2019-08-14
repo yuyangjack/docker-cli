@@ -29,7 +29,7 @@ Assertions should be made using
 [gotest.tools/assert](https://godoc.org/gotest.tools/assert).
 
 Fakes, and testing utilities can be found in
-[internal/test](https://godoc.org/github.com/docker/cli/internal/test) and
+[internal/test](https://godoc.org/github.com/yuyangjack/docker-cli/internal/test) and
 [gotest.tools](https://godoc.org/gotest.tools).
 
 ## End-to-End Test Suite
@@ -60,7 +60,7 @@ assertions to the existing end-to-end test, or with one or more unit test.
 ### Details
 
 The end-to-end test suite is located in
-[./e2e](https://github.com/docker/cli/tree/master/e2e). Each directory in `e2e`
+[./e2e](https://github.com/yuyangjack/docker-cli/tree/master/e2e). Each directory in `e2e`
 corresponds to a directory in `cli/command` and contains the tests for that
 subcommand. Files in each directory should be named `<command>_test.go` where
 command is the basename of the command (ex: the test for `docker stack deploy`
@@ -82,4 +82,4 @@ and make assertions about the exit code, stdout, stderr, and local file system.
 Any Docker image or registry operations should use `registry:5000/<image name>`
 to communicate with the local instance of the Docker registry. To load 
 additional fixture images to the registry see
-[scripts/test/e2e/run](https://github.com/docker/cli/blob/master/scripts/test/e2e/run).
+[scripts/test/e2e/run](https://github.com/yuyangjack/docker-cli/blob/master/scripts/test/e2e/run).
