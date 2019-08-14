@@ -12,9 +12,9 @@ import (
 
 	"github.com/yuyangjack/dockercli/internal/test"
 	"github.com/yuyangjack/dockercli/internal/test/notary"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/network"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/api/types/container"
+	"github.com/yuyangjack/moby/api/types/network"
 	"github.com/google/go-cmp/cmp"
 	"github.com/pkg/errors"
 	"gotest.tools/assert"

@@ -8,10 +8,10 @@ import (
 
 	"github.com/yuyangjack/dockercli/cli"
 	"github.com/yuyangjack/dockercli/cli/command"
-	"github.com/docker/docker/api/types"
-	registrytypes "github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/registry"
+	"github.com/yuyangjack/moby/api/types"
+	registrytypes "github.com/yuyangjack/moby/api/types/registry"
+	"github.com/yuyangjack/moby/client"
+	"github.com/yuyangjack/moby/registry"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

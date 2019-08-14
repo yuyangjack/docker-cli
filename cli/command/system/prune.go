@@ -13,7 +13,7 @@ import (
 	"github.com/yuyangjack/dockercli/cli/command/network"
 	"github.com/yuyangjack/dockercli/cli/command/volume"
 	"github.com/yuyangjack/dockercli/opts"
-	"github.com/docker/docker/api/types/versions"
+	"github.com/yuyangjack/moby/api/types/versions"
 	units "github.com/docker/go-units"
 	"github.com/spf13/cobra"
 )

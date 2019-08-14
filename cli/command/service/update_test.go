@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/api/types/container"
+	mounttypes "github.com/yuyangjack/moby/api/types/mount"
+	"github.com/yuyangjack/moby/api/types/swarm"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

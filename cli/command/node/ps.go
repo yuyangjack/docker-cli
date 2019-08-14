@@ -9,8 +9,8 @@ import (
 	"github.com/yuyangjack/dockercli/cli/command/idresolver"
 	"github.com/yuyangjack/dockercli/cli/command/task"
 	"github.com/yuyangjack/dockercli/opts"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/api/types/swarm"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

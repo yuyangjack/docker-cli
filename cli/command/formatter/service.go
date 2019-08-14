@@ -8,10 +8,10 @@ import (
 
 	"github.com/yuyangjack/dockercli/cli/command/inspect"
 	"github.com/yuyangjack/distribution/reference"
-	"github.com/docker/docker/api/types"
-	mounttypes "github.com/docker/docker/api/types/mount"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/yuyangjack/moby/api/types"
+	mounttypes "github.com/yuyangjack/moby/api/types/mount"
+	"github.com/yuyangjack/moby/api/types/swarm"
+	"github.com/yuyangjack/moby/pkg/stringid"
 	units "github.com/docker/go-units"
 	"github.com/pkg/errors"
 )

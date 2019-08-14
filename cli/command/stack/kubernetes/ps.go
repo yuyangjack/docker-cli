@@ -8,7 +8,7 @@ import (
 	"github.com/yuyangjack/dockercli/cli/command/formatter"
 	"github.com/yuyangjack/dockercli/cli/command/stack/options"
 	"github.com/yuyangjack/dockercli/cli/command/task"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/yuyangjack/moby/api/types/swarm"
 	apiv1 "k8s.io/api/core/v1"
 	apierrs "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

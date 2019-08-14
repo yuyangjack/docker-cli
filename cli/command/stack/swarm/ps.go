@@ -8,7 +8,7 @@ import (
 	"github.com/yuyangjack/dockercli/cli/command/idresolver"
 	"github.com/yuyangjack/dockercli/cli/command/stack/options"
 	"github.com/yuyangjack/dockercli/cli/command/task"
-	"github.com/docker/docker/api/types"
+	"github.com/yuyangjack/moby/api/types"
 )
 
 // RunPS is the swarm implementation of docker stack ps

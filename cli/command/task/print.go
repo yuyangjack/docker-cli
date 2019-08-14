@@ -9,7 +9,7 @@ import (
 	"github.com/yuyangjack/dockercli/cli/command/formatter"
 	"github.com/yuyangjack/dockercli/cli/command/idresolver"
 	"github.com/yuyangjack/dockercli/cli/config/configfile"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/yuyangjack/moby/api/types/swarm"
 )
 
 type tasksBySlot []swarm.Task

@@ -13,7 +13,7 @@ import (
 	"github.com/yuyangjack/distribution/registry/api/errcode"
 	"github.com/yuyangjack/distribution/registry/api/v2"
 	distclient "github.com/yuyangjack/distribution/registry/client"
-	"github.com/docker/docker/registry"
+	"github.com/yuyangjack/moby/registry"
 	digest "github.com/opencontainers/go-digest"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"

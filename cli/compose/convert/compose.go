@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	composetypes "github.com/yuyangjack/dockercli/cli/compose/types"
-	"github.com/docker/docker/api/types"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/yuyangjack/moby/api/types"
+	networktypes "github.com/yuyangjack/moby/api/types/network"
+	"github.com/yuyangjack/moby/api/types/swarm"
 )
 
 const (

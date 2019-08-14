@@ -5,11 +5,11 @@ import (
 	"strings"
 
 	"github.com/yuyangjack/dockercli/cli/compose/convert"
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
+	"github.com/yuyangjack/moby/api"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/api/types/filters"
+	"github.com/yuyangjack/moby/api/types/swarm"
+	"github.com/yuyangjack/moby/client"
 )
 
 type fakeClient struct {

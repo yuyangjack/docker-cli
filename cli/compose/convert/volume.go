@@ -2,7 +2,7 @@ package convert
 
 import (
 	composetypes "github.com/yuyangjack/dockercli/cli/compose/types"
-	"github.com/docker/docker/api/types/mount"
+	"github.com/yuyangjack/moby/api/types/mount"
 	"github.com/pkg/errors"
 )
 

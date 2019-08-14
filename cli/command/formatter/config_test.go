@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/yuyangjack/moby/api/types/swarm"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

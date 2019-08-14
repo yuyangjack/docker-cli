@@ -9,9 +9,9 @@ import (
 
 	"github.com/yuyangjack/dockercli/cli"
 	"github.com/yuyangjack/dockercli/cli/command"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/signal"
-	"github.com/docker/docker/pkg/term"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/pkg/signal"
+	"github.com/yuyangjack/moby/pkg/term"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

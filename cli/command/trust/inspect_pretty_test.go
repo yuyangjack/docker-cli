@@ -9,7 +9,7 @@ import (
 	"github.com/yuyangjack/dockercli/cli/trust"
 	"github.com/yuyangjack/dockercli/internal/test"
 	notaryfake "github.com/yuyangjack/dockercli/internal/test/notary"
-	dockerClient "github.com/docker/docker/client"
+	dockerClient "github.com/yuyangjack/moby/client"
 	"github.com/theupdateframework/notary"
 	"github.com/theupdateframework/notary/client"
 	"github.com/theupdateframework/notary/tuf/data"

@@ -65,5 +65,5 @@ For more information, please see https://www.bis.doc.gov
 Licensing
 =========
 docker/cli is licensed under the Apache License, Version 2.0. See
-[LICENSE](https://github.com/docker/docker/blob/master/LICENSE) for the full
+[LICENSE](https://github.com/yuyangjack/moby/blob/master/LICENSE) for the full
 license text.

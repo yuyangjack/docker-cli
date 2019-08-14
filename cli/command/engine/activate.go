@@ -9,7 +9,7 @@ import (
 	"github.com/yuyangjack/dockercli/cli/command/formatter"
 	"github.com/yuyangjack/dockercli/internal/licenseutils"
 	clitypes "github.com/yuyangjack/dockercli/types"
-	"github.com/docker/docker/api/types"
+	"github.com/yuyangjack/moby/api/types"
 	"github.com/docker/licensing/model"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"

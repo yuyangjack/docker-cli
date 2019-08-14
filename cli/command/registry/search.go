@@ -8,8 +8,8 @@ import (
 	"github.com/yuyangjack/dockercli/cli/command"
 	"github.com/yuyangjack/dockercli/cli/command/formatter"
 	"github.com/yuyangjack/dockercli/opts"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/registry"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/registry"
 	"github.com/spf13/cobra"
 )
 

@@ -8,8 +8,8 @@ import (
 
 	"github.com/yuyangjack/dockercli/cli/command/formatter"
 	"github.com/yuyangjack/dockercli/kubernetes/labels"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/yuyangjack/moby/api/types/filters"
+	"github.com/yuyangjack/moby/api/types/swarm"
 	appsv1beta2 "k8s.io/api/apps/v1beta2"
 	apiv1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

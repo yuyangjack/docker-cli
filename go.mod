@@ -21,7 +21,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/dgrijalva/jwt-go v2.6.0+incompatible
 	github.com/docker/compose-on-kubernetes v0.4.23
-	github.com/docker/docker-credential-helpers v0.6.3
+	github.com/yuyangjack/moby-credential-helpers v0.6.3
 	github.com/docker/go v0.0.0-20160303222718-d30aec9fd63c
 	github.com/docker/go-connections v0.4.0
 	github.com/docker/go-events v0.0.0-20170721190031-9461782956ad

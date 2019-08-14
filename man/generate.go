@@ -9,7 +9,7 @@ import (
 
 	"github.com/yuyangjack/dockercli/cli/command"
 	"github.com/yuyangjack/dockercli/cli/command/commands"
-	"github.com/docker/docker/pkg/term"
+	"github.com/yuyangjack/moby/pkg/term"
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 	"github.com/spf13/pflag"

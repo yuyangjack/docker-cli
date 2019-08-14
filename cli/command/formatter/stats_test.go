@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/yuyangjack/moby/pkg/stringid"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

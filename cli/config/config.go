@@ -8,8 +8,8 @@ import (
 
 	"github.com/yuyangjack/dockercli/cli/config/configfile"
 	"github.com/yuyangjack/dockercli/cli/config/credentials"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/homedir"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/pkg/homedir"
 	"github.com/pkg/errors"
 )
 

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	registrytypes "github.com/docker/docker/api/types/registry"
+	registrytypes "github.com/yuyangjack/moby/api/types/registry"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/golden"

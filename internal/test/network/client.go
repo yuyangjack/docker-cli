@@ -3,9 +3,9 @@ package network
 import (
 	"context"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/network"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/api/types/filters"
+	"github.com/yuyangjack/moby/api/types/network"
 )
 
 // FakeClient is a fake NetworkAPIClient

@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/yuyangjack/dockercli/internal/test"
-	"github.com/docker/docker/api/types"
-	registrytypes "github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/client"
+	"github.com/yuyangjack/moby/api/types"
+	registrytypes "github.com/yuyangjack/moby/api/types/registry"
+	"github.com/yuyangjack/moby/client"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/fs"

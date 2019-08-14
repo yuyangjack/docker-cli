@@ -8,7 +8,7 @@ import (
 	"github.com/yuyangjack/dockercli/cli"
 	"github.com/yuyangjack/dockercli/cli/command"
 	"github.com/yuyangjack/distribution/reference"
-	"github.com/docker/docker/pkg/jsonmessage"
+	"github.com/yuyangjack/moby/pkg/jsonmessage"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

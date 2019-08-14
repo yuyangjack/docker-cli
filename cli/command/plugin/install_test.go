@@ -9,7 +9,7 @@ import (
 
 	"github.com/yuyangjack/dockercli/internal/test"
 	"github.com/yuyangjack/dockercli/internal/test/notary"
-	"github.com/docker/docker/api/types"
+	"github.com/yuyangjack/moby/api/types"
 
 	"gotest.tools/assert"
 )

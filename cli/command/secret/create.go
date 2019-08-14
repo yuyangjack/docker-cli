@@ -9,8 +9,8 @@ import (
 	"github.com/yuyangjack/dockercli/cli"
 	"github.com/yuyangjack/dockercli/cli/command"
 	"github.com/yuyangjack/dockercli/opts"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/pkg/system"
+	"github.com/yuyangjack/moby/api/types/swarm"
+	"github.com/yuyangjack/moby/pkg/system"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

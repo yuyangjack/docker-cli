@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/yuyangjack/distribution/reference"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/pkg/stringid"
 	"github.com/docker/go-units"
 )
 

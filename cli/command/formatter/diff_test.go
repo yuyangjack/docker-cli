@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/pkg/archive"
+	"github.com/yuyangjack/moby/api/types/container"
+	"github.com/yuyangjack/moby/pkg/archive"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

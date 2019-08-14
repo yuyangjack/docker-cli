@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	registry "github.com/docker/docker/api/types/registry"
+	registry "github.com/yuyangjack/moby/api/types/registry"
 )
 
 const (

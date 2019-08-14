@@ -17,7 +17,7 @@ keywords: "API, Usage, plugins, documentation, developer"
 
 This document outlines the format of the V0 plugin configuration. The plugin
 config described herein was introduced in the Docker daemon in the [v1.12.0
-release](https://github.com/docker/docker/commit/f37117045c5398fd3dca8016ea8ca0cb47e7312b).
+release](https://github.com/yuyangjack/moby/commit/f37117045c5398fd3dca8016ea8ca0cb47e7312b).
 
 Plugin configs describe the various constituents of a docker plugin. Plugin
 configs can be serialized to JSON format with the following media types:

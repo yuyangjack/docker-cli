@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types"
+	"github.com/yuyangjack/moby/api/types"
 	"github.com/docker/licensing/model"
 	"gotest.tools/assert"
 )

@@ -13,7 +13,7 @@ import (
 	registryclient "github.com/yuyangjack/dockercli/cli/registry/client"
 	"github.com/yuyangjack/dockercli/cli/trust"
 	clitypes "github.com/yuyangjack/dockercli/types"
-	"github.com/docker/docker/client"
+	"github.com/yuyangjack/moby/client"
 	notaryclient "github.com/theupdateframework/notary/client"
 )
 

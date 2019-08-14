@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/yuyangjack/dockercli/internal/test"
-	"github.com/docker/docker/api/types/network"
+	"github.com/yuyangjack/moby/api/types/network"
 	"github.com/pkg/errors"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

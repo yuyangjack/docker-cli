@@ -15,14 +15,14 @@ import (
 	"strings"
 	"time"
 
-	"github.com/docker/docker/builder/remotecontext/git"
-	"github.com/docker/docker/pkg/archive"
-	"github.com/docker/docker/pkg/fileutils"
-	"github.com/docker/docker/pkg/ioutils"
-	"github.com/docker/docker/pkg/pools"
-	"github.com/docker/docker/pkg/progress"
-	"github.com/docker/docker/pkg/streamformatter"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/yuyangjack/moby/builder/remotecontext/git"
+	"github.com/yuyangjack/moby/pkg/archive"
+	"github.com/yuyangjack/moby/pkg/fileutils"
+	"github.com/yuyangjack/moby/pkg/ioutils"
+	"github.com/yuyangjack/moby/pkg/pools"
+	"github.com/yuyangjack/moby/pkg/progress"
+	"github.com/yuyangjack/moby/pkg/streamformatter"
+	"github.com/yuyangjack/moby/pkg/stringid"
 	"github.com/pkg/errors"
 )
 

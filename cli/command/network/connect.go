@@ -6,7 +6,7 @@ import (
 	"github.com/yuyangjack/dockercli/cli"
 	"github.com/yuyangjack/dockercli/cli/command"
 	"github.com/yuyangjack/dockercli/opts"
-	"github.com/docker/docker/api/types/network"
+	"github.com/yuyangjack/moby/api/types/network"
 	"github.com/spf13/cobra"
 )
 

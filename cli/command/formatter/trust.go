@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/yuyangjack/moby/pkg/stringid"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 
 	"github.com/yuyangjack/dockercli/cli/config/configfile"
 	"github.com/yuyangjack/dockercli/internal/test"
-	"github.com/docker/docker/api/types"
+	"github.com/yuyangjack/moby/api/types"
 	// Import builders to get the builder function as package function
 	. "github.com/yuyangjack/dockercli/internal/test/builders"
 	"gotest.tools/assert"

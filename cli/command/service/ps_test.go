@@ -6,9 +6,9 @@ import (
 
 	"github.com/yuyangjack/dockercli/internal/test"
 	"github.com/yuyangjack/dockercli/opts"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/api/types/filters"
+	"github.com/yuyangjack/moby/api/types/swarm"
 	"github.com/google/go-cmp/cmp"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

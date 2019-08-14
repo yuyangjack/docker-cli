@@ -9,8 +9,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/pkg/system"
+	"github.com/yuyangjack/moby/api/types/filters"
+	"github.com/yuyangjack/moby/pkg/system"
 	"github.com/spf13/pflag"
 )
 

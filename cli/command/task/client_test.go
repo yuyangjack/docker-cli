@@ -3,9 +3,9 @@ package task
 import (
 	"context"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/api/types/swarm"
+	"github.com/yuyangjack/moby/client"
 )
 
 type fakeClient struct {

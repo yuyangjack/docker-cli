@@ -14,7 +14,7 @@ import (
 	"github.com/yuyangjack/dockercli/cli/command"
 	"github.com/yuyangjack/dockercli/internal/versions"
 	clitypes "github.com/yuyangjack/dockercli/types"
-	"github.com/docker/docker/api/types"
+	"github.com/yuyangjack/moby/api/types"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 	"gotest.tools/assert"
 )

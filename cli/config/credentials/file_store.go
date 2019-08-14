@@ -1,8 +1,8 @@
 package credentials
 
 import (
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/registry"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/registry"
 )
 
 type store interface {

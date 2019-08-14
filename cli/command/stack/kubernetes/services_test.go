@@ -3,8 +3,8 @@ package kubernetes
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/yuyangjack/moby/api/types/filters"
+	"github.com/yuyangjack/moby/api/types/swarm"
 	"gotest.tools/assert"
 	"gotest.tools/assert/cmp"
 )

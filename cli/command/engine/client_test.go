@@ -6,7 +6,7 @@ import (
 	"github.com/containerd/containerd"
 	registryclient "github.com/yuyangjack/dockercli/cli/registry/client"
 	clitypes "github.com/yuyangjack/dockercli/types"
-	"github.com/docker/docker/api/types"
+	"github.com/yuyangjack/moby/api/types"
 )
 
 type (

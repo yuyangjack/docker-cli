@@ -4,7 +4,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/docker/docker/pkg/term"
+	"github.com/yuyangjack/moby/pkg/term"
 	"github.com/sirupsen/logrus"
 )
 

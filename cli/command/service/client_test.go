@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/api/types/swarm"
+	"github.com/yuyangjack/moby/client"
 	// Import builders to get the builder function as package function
 	. "github.com/yuyangjack/dockercli/internal/test/builders"
 )

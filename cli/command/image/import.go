@@ -8,9 +8,9 @@ import (
 	"github.com/yuyangjack/dockercli/cli"
 	"github.com/yuyangjack/dockercli/cli/command"
 	dockeropts "github.com/yuyangjack/dockercli/opts"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/jsonmessage"
-	"github.com/docker/docker/pkg/urlutil"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/pkg/jsonmessage"
+	"github.com/yuyangjack/moby/pkg/urlutil"
 	"github.com/spf13/cobra"
 )
 

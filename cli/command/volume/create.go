@@ -7,7 +7,7 @@ import (
 	"github.com/yuyangjack/dockercli/cli"
 	"github.com/yuyangjack/dockercli/cli/command"
 	"github.com/yuyangjack/dockercli/opts"
-	volumetypes "github.com/docker/docker/api/types/volume"
+	volumetypes "github.com/yuyangjack/moby/api/types/volume"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

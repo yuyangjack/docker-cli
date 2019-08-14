@@ -10,7 +10,7 @@ import (
 
 	"github.com/yuyangjack/dockercli/e2e/internal/fixtures"
 	"github.com/yuyangjack/dockercli/internal/test/environment"
-	"github.com/docker/docker/api/types"
+	"github.com/yuyangjack/moby/api/types"
 	"github.com/pkg/errors"
 	"gotest.tools/assert"
 	"gotest.tools/fs"

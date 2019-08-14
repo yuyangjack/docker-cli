@@ -5,10 +5,10 @@ import (
 
 	"github.com/yuyangjack/dockercli/cli/compose/convert"
 	"github.com/yuyangjack/dockercli/opts"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/client"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/api/types/filters"
+	"github.com/yuyangjack/moby/api/types/swarm"
+	"github.com/yuyangjack/moby/client"
 )
 
 func getStackFilter(namespace string) filters.Args {

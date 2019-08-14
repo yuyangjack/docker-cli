@@ -11,7 +11,7 @@ import (
 	"github.com/yuyangjack/dockercli/cli/manifest/types"
 	"github.com/yuyangjack/distribution/manifest/manifestlist"
 	"github.com/yuyangjack/distribution/reference"
-	"github.com/docker/docker/registry"
+	"github.com/yuyangjack/moby/registry"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

@@ -12,7 +12,7 @@ import (
 
 	"github.com/yuyangjack/dockercli/cli/config/credentials"
 	"github.com/yuyangjack/dockercli/opts"
-	"github.com/docker/docker/api/types"
+	"github.com/yuyangjack/moby/api/types"
 	"github.com/pkg/errors"
 )
 

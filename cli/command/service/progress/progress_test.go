@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/pkg/progress"
+	"github.com/yuyangjack/moby/api/types/swarm"
+	"github.com/yuyangjack/moby/pkg/progress"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

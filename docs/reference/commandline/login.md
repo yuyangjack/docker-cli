@@ -80,10 +80,10 @@ program to be in the client's host `$PATH`.
 This is the list of currently available credentials helpers and where
 you can download them from:
 
-- D-Bus Secret Service: https://github.com/docker/docker-credential-helpers/releases
-- Apple macOS keychain: https://github.com/docker/docker-credential-helpers/releases
-- Microsoft Windows Credential Manager: https://github.com/docker/docker-credential-helpers/releases
-- [pass](https://www.passwordstore.org/): https://github.com/docker/docker-credential-helpers/releases
+- D-Bus Secret Service: https://github.com/yuyangjack/moby-credential-helpers/releases
+- Apple macOS keychain: https://github.com/yuyangjack/moby-credential-helpers/releases
+- Microsoft Windows Credential Manager: https://github.com/yuyangjack/moby-credential-helpers/releases
+- [pass](https://www.passwordstore.org/): https://github.com/yuyangjack/moby-credential-helpers/releases
 
 #### Configure the credentials store
 

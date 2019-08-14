@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/yuyangjack/dockercli/internal/test"
-	"github.com/docker/docker/api/types"
-	volumetypes "github.com/docker/docker/api/types/volume"
+	"github.com/yuyangjack/moby/api/types"
+	volumetypes "github.com/yuyangjack/moby/api/types/volume"
 	"github.com/pkg/errors"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/yuyangjack/dockercli/opts"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/api/types/container"
+	"github.com/yuyangjack/moby/api/types/swarm"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

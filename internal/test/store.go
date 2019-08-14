@@ -2,7 +2,7 @@ package test
 
 import (
 	"github.com/yuyangjack/dockercli/cli/config/credentials"
-	"github.com/docker/docker/api/types"
+	"github.com/yuyangjack/moby/api/types"
 )
 
 // FakeStore implements a credentials.Store that only acts as an in memory map

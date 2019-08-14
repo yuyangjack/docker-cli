@@ -5,7 +5,7 @@ import (
 
 	"github.com/yuyangjack/dockercli/cli"
 	"github.com/yuyangjack/dockercli/cli/command"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/yuyangjack/moby/api/types/swarm"
 	"github.com/spf13/cobra"
 )
 

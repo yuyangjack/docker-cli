@@ -13,10 +13,10 @@ import (
 
 	"github.com/yuyangjack/dockercli/cli/compose/loader"
 	"github.com/yuyangjack/dockercli/opts"
-	"github.com/docker/docker/api/types/container"
-	networktypes "github.com/docker/docker/api/types/network"
-	"github.com/docker/docker/api/types/strslice"
-	"github.com/docker/docker/pkg/signal"
+	"github.com/yuyangjack/moby/api/types/container"
+	networktypes "github.com/yuyangjack/moby/api/types/network"
+	"github.com/yuyangjack/moby/api/types/strslice"
+	"github.com/yuyangjack/moby/pkg/signal"
 	"github.com/docker/go-connections/nat"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
@@ -586,7 +586,7 @@ func parse(flags *pflag.FlagSet, copts *containerOptions) (*containerConfig, err
 		// Make sure the dns fields are never nil.
 		// New containers don't ever have those fields nil,
 		// but pre created containers can still have those nil values.
-		// See https://github.com/docker/docker/pull/17779
+		// See https://github.com/yuyangjack/moby/pull/17779
 		// for a more detailed explanation on why we don't want that.
 		DNS:            copts.dns.GetAllOrEmpty(),
 		DNSSearch:      copts.dnsSearch.GetAllOrEmpty(),

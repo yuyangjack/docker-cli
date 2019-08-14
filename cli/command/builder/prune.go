@@ -8,7 +8,7 @@ import (
 	"github.com/yuyangjack/dockercli/cli"
 	"github.com/yuyangjack/dockercli/cli/command"
 	"github.com/yuyangjack/dockercli/opts"
-	"github.com/docker/docker/api/types"
+	"github.com/yuyangjack/moby/api/types"
 	units "github.com/docker/go-units"
 	"github.com/spf13/cobra"
 )

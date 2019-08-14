@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/yuyangjack/dockercli/internal/test"
-	"github.com/docker/docker/api/types/image"
+	"github.com/yuyangjack/moby/api/types/image"
 	"github.com/pkg/errors"
 	"gotest.tools/assert"
 	"gotest.tools/golden"

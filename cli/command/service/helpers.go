@@ -7,7 +7,7 @@ import (
 
 	"github.com/yuyangjack/dockercli/cli/command"
 	"github.com/yuyangjack/dockercli/cli/command/service/progress"
-	"github.com/docker/docker/pkg/jsonmessage"
+	"github.com/yuyangjack/moby/pkg/jsonmessage"
 )
 
 // waitOnService waits for the service to converge. It outputs a progress bar,

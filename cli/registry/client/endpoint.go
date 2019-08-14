@@ -9,8 +9,8 @@ import (
 	"github.com/yuyangjack/distribution/reference"
 	"github.com/yuyangjack/distribution/registry/client/auth"
 	"github.com/yuyangjack/distribution/registry/client/transport"
-	authtypes "github.com/docker/docker/api/types"
-	"github.com/docker/docker/registry"
+	authtypes "github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/registry"
 	"github.com/pkg/errors"
 )
 

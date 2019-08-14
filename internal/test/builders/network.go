@@ -1,7 +1,7 @@
 package builders
 
 import (
-	"github.com/docker/docker/api/types"
+	"github.com/yuyangjack/moby/api/types"
 )
 
 // NetworkResource creates a network resource with default values.

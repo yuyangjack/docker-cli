@@ -7,7 +7,7 @@ import (
 	"text/template"
 
 	"github.com/yuyangjack/distribution/reference"
-	"github.com/docker/docker/api/types"
+	"github.com/yuyangjack/moby/api/types"
 	units "github.com/docker/go-units"
 )
 

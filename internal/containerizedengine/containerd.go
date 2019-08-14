@@ -8,8 +8,8 @@ import (
 	"github.com/containerd/containerd/images"
 	"github.com/containerd/containerd/remotes/docker"
 	clitypes "github.com/yuyangjack/dockercli/types"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/pkg/jsonmessage"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/pkg/jsonmessage"
 	ocispec "github.com/opencontainers/image-spec/specs-go/v1"
 )
 

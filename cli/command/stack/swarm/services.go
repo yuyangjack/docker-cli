@@ -8,8 +8,8 @@ import (
 	"github.com/yuyangjack/dockercli/cli/command/formatter"
 	"github.com/yuyangjack/dockercli/cli/command/service"
 	"github.com/yuyangjack/dockercli/cli/command/stack/options"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/api/types/filters"
 )
 
 // RunServices is the swarm implementation of docker stack services

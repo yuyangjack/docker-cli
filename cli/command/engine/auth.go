@@ -7,8 +7,8 @@ import (
 	"github.com/yuyangjack/dockercli/cli/trust"
 	clitypes "github.com/yuyangjack/dockercli/types"
 	"github.com/yuyangjack/distribution/reference"
-	"github.com/docker/docker/api/types"
-	registrytypes "github.com/docker/docker/api/types/registry"
+	"github.com/yuyangjack/moby/api/types"
+	registrytypes "github.com/yuyangjack/moby/api/types/registry"
 	"github.com/pkg/errors"
 )
 

@@ -1,7 +1,7 @@
 package command
 
 import (
-	"github.com/docker/docker/pkg/term"
+	"github.com/yuyangjack/moby/pkg/term"
 )
 
 // CommonStream is an input stream used by the DockerCli to read user input

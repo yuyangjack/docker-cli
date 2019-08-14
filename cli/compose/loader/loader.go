@@ -13,7 +13,7 @@ import (
 	"github.com/yuyangjack/dockercli/cli/compose/template"
 	"github.com/yuyangjack/dockercli/cli/compose/types"
 	"github.com/yuyangjack/dockercli/opts"
-	"github.com/docker/docker/api/types/versions"
+	"github.com/yuyangjack/moby/api/types/versions"
 	"github.com/docker/go-connections/nat"
 	units "github.com/docker/go-units"
 	shellwords "github.com/mattn/go-shellwords"

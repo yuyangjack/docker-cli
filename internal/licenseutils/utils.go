@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/docker/docker/api/types"
+	"github.com/yuyangjack/moby/api/types"
 	"github.com/docker/licensing"
 	"github.com/docker/licensing/model"
 	"github.com/pkg/errors"

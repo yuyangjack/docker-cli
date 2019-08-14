@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/yuyangjack/dockercli/opts"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/yuyangjack/moby/api/types/swarm"
 	"github.com/pkg/errors"
 	"github.com/spf13/pflag"
 )

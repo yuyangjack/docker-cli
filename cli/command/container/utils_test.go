@@ -6,8 +6,8 @@ import (
 	"testing"
 
 	"github.com/yuyangjack/dockercli/internal/test"
-	"github.com/docker/docker/api"
-	"github.com/docker/docker/api/types/container"
+	"github.com/yuyangjack/moby/api"
+	"github.com/yuyangjack/moby/api/types/container"
 	"github.com/pkg/errors"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

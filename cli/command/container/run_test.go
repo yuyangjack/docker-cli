@@ -7,8 +7,8 @@ import (
 
 	"github.com/yuyangjack/dockercli/internal/test"
 	"github.com/yuyangjack/dockercli/internal/test/notary"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/network"
+	"github.com/yuyangjack/moby/api/types/container"
+	"github.com/yuyangjack/moby/api/types/network"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

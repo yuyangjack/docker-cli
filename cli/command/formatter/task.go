@@ -7,8 +7,8 @@ import (
 
 	"github.com/yuyangjack/dockercli/cli/command"
 	"github.com/yuyangjack/distribution/reference"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/yuyangjack/moby/api/types/swarm"
+	"github.com/yuyangjack/moby/pkg/stringid"
 	"github.com/docker/go-units"
 )
 

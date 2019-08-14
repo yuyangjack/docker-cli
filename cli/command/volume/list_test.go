@@ -6,9 +6,9 @@ import (
 
 	"github.com/yuyangjack/dockercli/cli/config/configfile"
 	"github.com/yuyangjack/dockercli/internal/test"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/filters"
-	volumetypes "github.com/docker/docker/api/types/volume"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/api/types/filters"
+	volumetypes "github.com/yuyangjack/moby/api/types/volume"
 	"github.com/pkg/errors"
 	// Import builders to get the builder function as package function
 	. "github.com/yuyangjack/dockercli/internal/test/builders"

@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/yuyangjack/dockercli/internal/test"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/yuyangjack/moby/api/types/swarm"
 	"github.com/pkg/errors"
 	"gotest.tools/assert"
 	// Import builders to get the builder function as package function

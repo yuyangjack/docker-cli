@@ -14,7 +14,7 @@ import (
 	"github.com/yuyangjack/dockercli/internal/versions"
 	clitypes "github.com/yuyangjack/dockercli/types"
 	"github.com/yuyangjack/distribution/reference"
-	"github.com/docker/docker/api/types"
+	"github.com/yuyangjack/moby/api/types"
 	ver "github.com/hashicorp/go-version"
 	"github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"

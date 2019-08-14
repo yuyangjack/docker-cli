@@ -10,8 +10,8 @@ import (
 	"github.com/yuyangjack/dockercli/cli/command/bundlefile"
 	"github.com/yuyangjack/dockercli/cli/command/stack/options"
 	"github.com/yuyangjack/dockercli/cli/compose/convert"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/api/types/swarm"
 	"github.com/pkg/errors"
 )
 

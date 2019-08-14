@@ -13,10 +13,10 @@ import (
 
 	"github.com/yuyangjack/dockercli/cli/debug"
 	"github.com/yuyangjack/distribution/reference"
-	"github.com/docker/docker/api/types"
-	registrytypes "github.com/docker/docker/api/types/registry"
-	"github.com/docker/docker/pkg/term"
-	"github.com/docker/docker/registry"
+	"github.com/yuyangjack/moby/api/types"
+	registrytypes "github.com/yuyangjack/moby/api/types/registry"
+	"github.com/yuyangjack/moby/pkg/term"
+	"github.com/yuyangjack/moby/registry"
 	"github.com/pkg/errors"
 )
 
@@ -106,7 +106,7 @@ func ConfigureAuth(cli Cli, flUser, flPassword string, authconfig *types.AuthCon
 
 	// Some links documenting this:
 	// - https://code.google.com/archive/p/mintty/issues/56
-	// - https://github.com/docker/docker/issues/15272
+	// - https://github.com/yuyangjack/moby/issues/15272
 	// - https://mintty.github.io/ (compatibility)
 	// Linux will hit this if you attempt `cat | docker login`, and Windows
 	// will hit this if you attempt docker login from mintty where stdin

@@ -3,7 +3,7 @@ package idresolver
 import (
 	"testing"
 
-	"github.com/docker/docker/api/types/swarm"
+	"github.com/yuyangjack/moby/api/types/swarm"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	// Import builders to get the builder function as package function

@@ -14,8 +14,8 @@ import (
 	"github.com/yuyangjack/dockercli/cli/command"
 	"github.com/yuyangjack/dockercli/opts"
 	"github.com/yuyangjack/dockercli/templates"
-	"github.com/docker/docker/api/types"
-	eventtypes "github.com/docker/docker/api/types/events"
+	"github.com/yuyangjack/moby/api/types"
+	eventtypes "github.com/yuyangjack/moby/api/types/events"
 	"github.com/spf13/cobra"
 )
 

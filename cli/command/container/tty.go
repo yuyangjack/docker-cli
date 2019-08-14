@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/yuyangjack/dockercli/cli/command"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/client"
-	"github.com/docker/docker/pkg/signal"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/client"
+	"github.com/yuyangjack/moby/pkg/signal"
 	"github.com/sirupsen/logrus"
 )
 

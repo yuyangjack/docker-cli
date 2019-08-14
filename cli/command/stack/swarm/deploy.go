@@ -8,8 +8,8 @@ import (
 	"github.com/yuyangjack/dockercli/cli/command/stack/options"
 	"github.com/yuyangjack/dockercli/cli/compose/convert"
 	composetypes "github.com/yuyangjack/dockercli/cli/compose/types"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/api/types/versions"
+	"github.com/yuyangjack/moby/api/types/swarm"
+	"github.com/yuyangjack/moby/api/types/versions"
 	"github.com/pkg/errors"
 )
 

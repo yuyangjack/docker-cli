@@ -7,8 +7,8 @@ import (
 
 	"github.com/yuyangjack/dockercli/cli"
 	"github.com/yuyangjack/dockercli/internal/test"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/api/types/container"
 	"github.com/pkg/errors"
 	"gotest.tools/assert"
 )

@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/docker/docker/api/types/image"
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/yuyangjack/moby/api/types/image"
+	"github.com/yuyangjack/moby/pkg/stringid"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

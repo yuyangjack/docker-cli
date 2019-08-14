@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/docker/docker/pkg/homedir"
+	"github.com/yuyangjack/moby/pkg/homedir"
 	"k8s.io/client-go/tools/clientcmd"
 )
 

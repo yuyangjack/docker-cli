@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/yuyangjack/dockercli/cli/config/credentials"
-	"github.com/docker/docker/api/types"
+	"github.com/yuyangjack/moby/api/types"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

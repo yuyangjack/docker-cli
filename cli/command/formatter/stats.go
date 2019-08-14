@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/docker/docker/pkg/stringid"
+	"github.com/yuyangjack/moby/pkg/stringid"
 	units "github.com/docker/go-units"
 )
 

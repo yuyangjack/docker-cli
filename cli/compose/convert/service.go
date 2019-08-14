@@ -10,10 +10,10 @@ import (
 	servicecli "github.com/yuyangjack/dockercli/cli/command/service"
 	composetypes "github.com/yuyangjack/dockercli/cli/compose/types"
 	"github.com/yuyangjack/dockercli/opts"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/swarm"
-	"github.com/docker/docker/api/types/versions"
-	"github.com/docker/docker/client"
+	"github.com/yuyangjack/moby/api/types/container"
+	"github.com/yuyangjack/moby/api/types/swarm"
+	"github.com/yuyangjack/moby/api/types/versions"
+	"github.com/yuyangjack/moby/client"
 	"github.com/pkg/errors"
 )
 

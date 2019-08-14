@@ -8,11 +8,11 @@ import (
 	"github.com/yuyangjack/dockercli/cli/command/stack/options"
 	"github.com/yuyangjack/dockercli/cli/compose/convert"
 	composetypes "github.com/yuyangjack/dockercli/cli/compose/types"
-	"github.com/docker/docker/api/types"
-	"github.com/docker/docker/api/types/container"
-	"github.com/docker/docker/api/types/swarm"
-	apiclient "github.com/docker/docker/client"
-	dockerclient "github.com/docker/docker/client"
+	"github.com/yuyangjack/moby/api/types"
+	"github.com/yuyangjack/moby/api/types/container"
+	"github.com/yuyangjack/moby/api/types/swarm"
+	apiclient "github.com/yuyangjack/moby/client"
+	dockerclient "github.com/yuyangjack/moby/client"
 	"github.com/pkg/errors"
 )
 
