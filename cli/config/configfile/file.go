@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/yuyangjack/docker-cli/cli/config/credentials"
-	"github.com/yuyangjack/docker-cli/opts"
+	"github.com/yuyangjack/dockercli/cli/config/credentials"
+	"github.com/yuyangjack/dockercli/opts"
 	"github.com/docker/docker/api/types"
 	"github.com/pkg/errors"
 )

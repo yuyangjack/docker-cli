@@ -9,7 +9,7 @@ import (
 	// Import builders to get the builder function as package function
 	"context"
 
-	. "github.com/yuyangjack/docker-cli/internal/test/builders"
+	. "github.com/yuyangjack/dockercli/internal/test/builders"
 	"github.com/pkg/errors"
 )
 

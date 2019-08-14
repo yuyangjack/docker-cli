@@ -1,7 +1,7 @@
 package engine
 
 import (
-	clitypes "github.com/yuyangjack/docker-cli/types"
+	clitypes "github.com/yuyangjack/dockercli/types"
 )
 
 type extendedEngineInitOptions struct {

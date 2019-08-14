@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/yuyangjack/docker-cli/cli/config/configfile"
-	"github.com/yuyangjack/docker-cli/internal/test"
+	"github.com/yuyangjack/dockercli/cli/config/configfile"
+	"github.com/yuyangjack/dockercli/internal/test"
 	"github.com/docker/docker/api/types"
 	"github.com/pkg/errors"
 	"gotest.tools/assert"

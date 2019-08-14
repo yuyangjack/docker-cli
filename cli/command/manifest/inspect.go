@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/yuyangjack/docker-cli/cli"
-	"github.com/yuyangjack/docker-cli/cli/command"
-	"github.com/yuyangjack/docker-cli/cli/manifest/types"
+	"github.com/yuyangjack/dockercli/cli"
+	"github.com/yuyangjack/dockercli/cli/command"
+	"github.com/yuyangjack/dockercli/cli/manifest/types"
 	"github.com/yuyangjack/distribution/manifest/manifestlist"
 	"github.com/yuyangjack/distribution/reference"
 	"github.com/docker/docker/registry"

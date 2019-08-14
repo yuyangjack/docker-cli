@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/yuyangjack/docker-cli/cli"
-	"github.com/yuyangjack/docker-cli/cli/command"
-	"github.com/yuyangjack/docker-cli/opts"
+	"github.com/yuyangjack/dockercli/cli"
+	"github.com/yuyangjack/dockercli/cli/command"
+	"github.com/yuyangjack/dockercli/opts"
 	containertypes "github.com/docker/docker/api/types/container"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"

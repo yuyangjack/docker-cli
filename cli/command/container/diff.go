@@ -3,9 +3,9 @@ package container
 import (
 	"context"
 
-	"github.com/yuyangjack/docker-cli/cli"
-	"github.com/yuyangjack/docker-cli/cli/command"
-	"github.com/yuyangjack/docker-cli/cli/command/formatter"
+	"github.com/yuyangjack/dockercli/cli"
+	"github.com/yuyangjack/dockercli/cli/command"
+	"github.com/yuyangjack/dockercli/cli/command/formatter"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

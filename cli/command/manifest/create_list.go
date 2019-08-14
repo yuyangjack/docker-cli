@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/yuyangjack/docker-cli/cli"
-	"github.com/yuyangjack/docker-cli/cli/command"
-	"github.com/yuyangjack/docker-cli/cli/manifest/store"
+	"github.com/yuyangjack/dockercli/cli"
+	"github.com/yuyangjack/dockercli/cli/command"
+	"github.com/yuyangjack/dockercli/cli/manifest/store"
 	"github.com/docker/docker/registry"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"

@@ -1,7 +1,7 @@
 package v1beta2
 
 import (
-	"github.com/yuyangjack/docker-cli/kubernetes/compose/v1beta2"
+	"github.com/yuyangjack/dockercli/kubernetes/compose/v1beta2"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/tools/cache"

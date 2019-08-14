@@ -5,9 +5,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/yuyangjack/docker-cli/cli/trust"
-	"github.com/yuyangjack/docker-cli/internal/test"
-	"github.com/yuyangjack/docker-cli/internal/test/notary"
+	"github.com/yuyangjack/dockercli/cli/trust"
+	"github.com/yuyangjack/dockercli/internal/test"
+	"github.com/yuyangjack/dockercli/internal/test/notary"
 	"github.com/theupdateframework/notary/client"
 	"github.com/theupdateframework/notary/passphrase"
 	"github.com/theupdateframework/notary/trustpinning"

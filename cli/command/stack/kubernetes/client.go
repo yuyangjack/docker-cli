@@ -1,7 +1,7 @@
 package kubernetes
 
 import (
-	"github.com/yuyangjack/docker-cli/kubernetes"
+	"github.com/yuyangjack/dockercli/kubernetes"
 	"github.com/pkg/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	kubeclient "k8s.io/client-go/kubernetes"

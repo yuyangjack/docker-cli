@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/containerd/containerd"
-	registryclient "github.com/yuyangjack/docker-cli/cli/registry/client"
-	clitypes "github.com/yuyangjack/docker-cli/types"
+	registryclient "github.com/yuyangjack/dockercli/cli/registry/client"
+	clitypes "github.com/yuyangjack/dockercli/types"
 	"github.com/docker/docker/api/types"
 )
 

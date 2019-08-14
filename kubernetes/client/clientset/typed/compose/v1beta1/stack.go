@@ -1,8 +1,8 @@
 package v1beta1
 
 import (
-	"github.com/yuyangjack/docker-cli/kubernetes/client/clientset/scheme"
-	"github.com/yuyangjack/docker-cli/kubernetes/compose/v1beta1"
+	"github.com/yuyangjack/dockercli/kubernetes/client/clientset/scheme"
+	"github.com/yuyangjack/dockercli/kubernetes/compose/v1beta1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/watch"

@@ -8,9 +8,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yuyangjack/docker-cli/cli"
-	"github.com/yuyangjack/docker-cli/cli/command"
-	"github.com/yuyangjack/docker-cli/cli/command/formatter"
+	"github.com/yuyangjack/dockercli/cli"
+	"github.com/yuyangjack/dockercli/cli/command"
+	"github.com/yuyangjack/dockercli/cli/command/formatter"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/events"
 	"github.com/docker/docker/api/types/filters"

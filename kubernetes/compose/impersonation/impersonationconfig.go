@@ -1,6 +1,6 @@
 package impersonation
 
-import "github.com/yuyangjack/docker-cli/kubernetes/compose/clone"
+import "github.com/yuyangjack/dockercli/kubernetes/compose/clone"
 
 // Config contains the data required to impersonate a user.
 type Config struct {

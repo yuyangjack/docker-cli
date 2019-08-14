@@ -3,7 +3,7 @@ package system
 import (
 	"testing"
 
-	"github.com/yuyangjack/docker-cli/internal/test"
+	"github.com/yuyangjack/dockercli/internal/test"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

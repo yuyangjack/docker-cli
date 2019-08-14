@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	manifesttypes "github.com/yuyangjack/docker-cli/cli/manifest/types"
-	"github.com/yuyangjack/docker-cli/cli/trust"
+	manifesttypes "github.com/yuyangjack/dockercli/cli/manifest/types"
+	"github.com/yuyangjack/dockercli/cli/trust"
 	"github.com/yuyangjack/distribution"
 	"github.com/yuyangjack/distribution/reference"
 	distributionclient "github.com/yuyangjack/distribution/registry/client"

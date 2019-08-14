@@ -91,13 +91,13 @@ Function Execute-Build($additionalBuildTags, $directory) {
 Function Run-UnitTests() {
     Write-Host "INFO: Running unit tests..."
     $testPath="./..."
-    $goListCommand = "go list -e -f '{{if ne .Name """ + '\"github.com/yuyangjack/docker-cli\"' + """}}{{.ImportPath}}{{end}}' $testPath"
+    $goListCommand = "go list -e -f '{{if ne .Name """ + '\"github.com/yuyangjack/dockercli\"' + """}}{{.ImportPath}}{{end}}' $testPath"
     $pkgList = $(Invoke-Expression $goListCommand)
     if ($LASTEXITCODE -ne 0) { Throw "go list for unit tests failed" }
-    $pkgList = $pkgList | Select-String -Pattern "github.com/yuyangjack/docker-cli"
-    $pkgList = $pkgList | Select-String -NotMatch "github.com/yuyangjack/docker-cli/vendor"
-    $pkgList = $pkgList | Select-String -NotMatch "github.com/yuyangjack/docker-cli/man"
-    $pkgList = $pkgList | Select-String -NotMatch "github.com/yuyangjack/docker-cli/e2e"
+    $pkgList = $pkgList | Select-String -Pattern "github.com/yuyangjack/dockercli"
+    $pkgList = $pkgList | Select-String -NotMatch "github.com/yuyangjack/dockercli/vendor"
+    $pkgList = $pkgList | Select-String -NotMatch "github.com/yuyangjack/dockercli/man"
+    $pkgList = $pkgList | Select-String -NotMatch "github.com/yuyangjack/dockercli/e2e"
     $pkgList = $pkgList -replace "`r`n", " "
     $goTestCommand = "go test" + $raceParm + " -cover -ldflags -w -tags """ + "autogen" + """ -a """ + "-test.timeout=10m" + """ $pkgList"
     Invoke-Expression $goTestCommand

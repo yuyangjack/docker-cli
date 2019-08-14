@@ -5,8 +5,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/yuyangjack/docker-cli/cli/command"
-	"github.com/yuyangjack/docker-cli/cli/command/formatter"
+	"github.com/yuyangjack/dockercli/cli/command"
+	"github.com/yuyangjack/dockercli/cli/command/formatter"
 	"github.com/theupdateframework/notary/client"
 	"vbom.ml/util/sortorder"
 )

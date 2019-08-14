@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yuyangjack/docker-cli/e2e/internal/fixtures"
-	"github.com/yuyangjack/docker-cli/internal/test/environment"
-	"github.com/yuyangjack/docker-cli/internal/test/output"
+	"github.com/yuyangjack/dockercli/e2e/internal/fixtures"
+	"github.com/yuyangjack/dockercli/internal/test/environment"
+	"github.com/yuyangjack/dockercli/internal/test/output"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 	"gotest.tools/fs"

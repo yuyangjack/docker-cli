@@ -3,8 +3,8 @@ package swarm
 import (
 	"context"
 
-	"github.com/yuyangjack/docker-cli/cli/compose/convert"
-	"github.com/yuyangjack/docker-cli/opts"
+	"github.com/yuyangjack/dockercli/cli/compose/convert"
+	"github.com/yuyangjack/dockercli/opts"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/filters"
 	"github.com/docker/docker/api/types/swarm"

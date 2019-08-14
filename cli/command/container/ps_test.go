@@ -3,7 +3,7 @@ package container
 import (
 	"testing"
 
-	"github.com/yuyangjack/docker-cli/opts"
+	"github.com/yuyangjack/dockercli/opts"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"
 )

@@ -1,5 +1,5 @@
 #
-# github.com/yuyangjack/docker-cli
+# github.com/yuyangjack/dockercli
 #
 # Makefile for developing using Docker
 #
@@ -11,7 +11,7 @@ CROSS_IMAGE_NAME = docker-cli-cross$(IMAGE_TAG)
 VALIDATE_IMAGE_NAME = docker-cli-shell-validate$(IMAGE_TAG)
 E2E_IMAGE_NAME = docker-cli-e2e$(IMAGE_TAG)
 GO_BUILD_CACHE ?= y
-MOUNTS = -v "$(CURDIR)":/go/src/github.com/yuyangjack/docker-cli
+MOUNTS = -v "$(CURDIR)":/go/src/github.com/yuyangjack/dockercli
 CACHE_VOLUME_NAME := docker-cli-dev-cache
 ifeq ($(GO_BUILD_CACHE),y)
 MOUNTS += -v "$(CACHE_VOLUME_NAME):/root/.cache/go-build"

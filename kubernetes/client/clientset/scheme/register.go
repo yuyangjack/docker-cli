@@ -1,8 +1,8 @@
 package scheme
 
 import (
-	composev1beta1 "github.com/yuyangjack/docker-cli/kubernetes/compose/v1beta1"
-	composev1beta2 "github.com/yuyangjack/docker-cli/kubernetes/compose/v1beta2"
+	composev1beta1 "github.com/yuyangjack/dockercli/kubernetes/compose/v1beta1"
+	composev1beta2 "github.com/yuyangjack/dockercli/kubernetes/compose/v1beta2"
 	"k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"

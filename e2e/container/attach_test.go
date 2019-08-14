@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yuyangjack/docker-cli/e2e/internal/fixtures"
+	"github.com/yuyangjack/dockercli/e2e/internal/fixtures"
 	"gotest.tools/icmd"
 )
 

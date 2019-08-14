@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/yuyangjack/docker-cli/internal/test"
-	"github.com/yuyangjack/docker-cli/opts"
+	"github.com/yuyangjack/dockercli/internal/test"
+	"github.com/yuyangjack/dockercli/opts"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/filters"
 	"github.com/docker/docker/api/types/swarm"

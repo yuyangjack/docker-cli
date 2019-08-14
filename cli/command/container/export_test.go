@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yuyangjack/docker-cli/internal/test"
+	"github.com/yuyangjack/dockercli/internal/test"
 	"gotest.tools/assert"
 	"gotest.tools/fs"
 )

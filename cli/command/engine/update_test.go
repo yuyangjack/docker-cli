@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/yuyangjack/docker-cli/internal/test"
-	clitypes "github.com/yuyangjack/docker-cli/types"
+	"github.com/yuyangjack/dockercli/internal/test"
+	clitypes "github.com/yuyangjack/dockercli/types"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 	"gotest.tools/assert"

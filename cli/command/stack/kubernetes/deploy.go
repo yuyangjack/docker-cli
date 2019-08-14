@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/yuyangjack/docker-cli/cli/command"
-	"github.com/yuyangjack/docker-cli/cli/command/stack/options"
-	composetypes "github.com/yuyangjack/docker-cli/cli/compose/types"
+	"github.com/yuyangjack/dockercli/cli/command"
+	"github.com/yuyangjack/dockercli/cli/command/stack/options"
+	composetypes "github.com/yuyangjack/dockercli/cli/compose/types"
 	"github.com/morikuni/aec"
 )
 

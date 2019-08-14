@@ -1,7 +1,7 @@
 package v1beta2
 
 import (
-	"github.com/yuyangjack/docker-cli/kubernetes/compose/clone"
+	"github.com/yuyangjack/dockercli/kubernetes/compose/clone"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 )

@@ -7,9 +7,9 @@ import (
 	"runtime"
 	"testing"
 
-	cliconfig "github.com/yuyangjack/docker-cli/cli/config"
-	"github.com/yuyangjack/docker-cli/cli/config/configfile"
-	"github.com/yuyangjack/docker-cli/cli/flags"
+	cliconfig "github.com/yuyangjack/dockercli/cli/config"
+	"github.com/yuyangjack/dockercli/cli/config/configfile"
+	"github.com/yuyangjack/dockercli/cli/flags"
 	"github.com/docker/docker/api"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"

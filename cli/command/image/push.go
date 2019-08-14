@@ -3,8 +3,8 @@ package image
 import (
 	"context"
 
-	"github.com/yuyangjack/docker-cli/cli"
-	"github.com/yuyangjack/docker-cli/cli/command"
+	"github.com/yuyangjack/dockercli/cli"
+	"github.com/yuyangjack/dockercli/cli/command"
 	"github.com/yuyangjack/distribution/reference"
 	"github.com/docker/docker/pkg/jsonmessage"
 	"github.com/docker/docker/registry"

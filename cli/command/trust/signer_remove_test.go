@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/yuyangjack/docker-cli/internal/test"
-	notaryfake "github.com/yuyangjack/docker-cli/internal/test/notary"
+	"github.com/yuyangjack/dockercli/internal/test"
+	notaryfake "github.com/yuyangjack/dockercli/internal/test/notary"
 	"github.com/theupdateframework/notary/client"
 	"github.com/theupdateframework/notary/tuf/data"
 	"gotest.tools/assert"

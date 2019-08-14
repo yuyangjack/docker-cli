@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yuyangjack/docker-cli/opts"
+	"github.com/yuyangjack/dockercli/opts"
 	"github.com/docker/docker/api/types/swarm"
 	"github.com/pkg/errors"
 	"github.com/spf13/pflag"

@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/hex"
 
-	"github.com/yuyangjack/docker-cli/cli/command"
-	"github.com/yuyangjack/docker-cli/cli/trust"
+	"github.com/yuyangjack/dockercli/cli/command"
+	"github.com/yuyangjack/dockercli/cli/trust"
 	"github.com/yuyangjack/distribution/reference"
 	"github.com/docker/docker/api/types/swarm"
 	"github.com/docker/docker/registry"

@@ -1,12 +1,12 @@
 package stack
 
 import (
-	"github.com/yuyangjack/docker-cli/cli"
-	"github.com/yuyangjack/docker-cli/cli/command"
-	"github.com/yuyangjack/docker-cli/cli/command/stack/kubernetes"
-	"github.com/yuyangjack/docker-cli/cli/command/stack/options"
-	"github.com/yuyangjack/docker-cli/cli/command/stack/swarm"
-	cliopts "github.com/yuyangjack/docker-cli/opts"
+	"github.com/yuyangjack/dockercli/cli"
+	"github.com/yuyangjack/dockercli/cli/command"
+	"github.com/yuyangjack/dockercli/cli/command/stack/kubernetes"
+	"github.com/yuyangjack/dockercli/cli/command/stack/options"
+	"github.com/yuyangjack/dockercli/cli/command/stack/swarm"
+	cliopts "github.com/yuyangjack/dockercli/opts"
 	"github.com/spf13/cobra"
 )
 

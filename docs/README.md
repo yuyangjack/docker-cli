@@ -1,7 +1,7 @@
 # The non-reference docs have been moved!
 
 <!-- This file is maintained within the docker/cli GitHub
-     repository at https://github.com/yuyangjack/docker-cli/. Make all
+     repository at https://github.com/yuyangjack/dockercli/. Make all
      pull requests against that repo. If you see this file in
      another repository, consider it read-only there, as it will
      periodically be overwritten by the definitive file. Pull

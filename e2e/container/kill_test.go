@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yuyangjack/docker-cli/e2e/internal/fixtures"
+	"github.com/yuyangjack/dockercli/e2e/internal/fixtures"
 	"gotest.tools/icmd"
 	"gotest.tools/poll"
 )

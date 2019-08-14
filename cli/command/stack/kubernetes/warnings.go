@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	composetypes "github.com/yuyangjack/docker-cli/cli/compose/types"
+	composetypes "github.com/yuyangjack/dockercli/cli/compose/types"
 )
 
 func warnUnsupportedFeatures(stderr io.Writer, cfg *composetypes.Config) {

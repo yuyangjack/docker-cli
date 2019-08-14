@@ -3,8 +3,8 @@ package image
 import (
 	"testing"
 
-	"github.com/yuyangjack/docker-cli/e2e/internal/fixtures"
-	"github.com/yuyangjack/docker-cli/internal/test/environment"
+	"github.com/yuyangjack/dockercli/e2e/internal/fixtures"
+	"github.com/yuyangjack/dockercli/internal/test/environment"
 	"gotest.tools/golden"
 	"gotest.tools/icmd"
 	"gotest.tools/skip"

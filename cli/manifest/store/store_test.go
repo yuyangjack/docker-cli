@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/yuyangjack/docker-cli/cli/manifest/types"
+	"github.com/yuyangjack/dockercli/cli/manifest/types"
 	"github.com/yuyangjack/distribution/reference"
 	"github.com/google/go-cmp/cmp"
 	"gotest.tools/assert"

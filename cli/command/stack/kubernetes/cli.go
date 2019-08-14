@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"os"
 
-	"github.com/yuyangjack/docker-cli/cli/command"
-	"github.com/yuyangjack/docker-cli/kubernetes"
-	cliv1beta1 "github.com/yuyangjack/docker-cli/kubernetes/client/clientset/typed/compose/v1beta1"
+	"github.com/yuyangjack/dockercli/cli/command"
+	"github.com/yuyangjack/dockercli/kubernetes"
+	cliv1beta1 "github.com/yuyangjack/dockercli/kubernetes/client/clientset/typed/compose/v1beta1"
 	"github.com/pkg/errors"
 	flag "github.com/spf13/pflag"
 	kubeclient "k8s.io/client-go/kubernetes"

@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/yuyangjack/docker-cli/cli"
-	"github.com/yuyangjack/docker-cli/cli/command"
-	"github.com/yuyangjack/docker-cli/cli/command/formatter"
-	"github.com/yuyangjack/docker-cli/internal/versions"
-	clitypes "github.com/yuyangjack/docker-cli/types"
+	"github.com/yuyangjack/dockercli/cli"
+	"github.com/yuyangjack/dockercli/cli/command"
+	"github.com/yuyangjack/dockercli/cli/command/formatter"
+	"github.com/yuyangjack/dockercli/internal/versions"
+	clitypes "github.com/yuyangjack/dockercli/types"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

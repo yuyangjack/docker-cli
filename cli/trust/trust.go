@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"time"
 
-	cliconfig "github.com/yuyangjack/docker-cli/cli/config"
+	cliconfig "github.com/yuyangjack/dockercli/cli/config"
 	"github.com/yuyangjack/distribution/reference"
 	"github.com/yuyangjack/distribution/registry/client/auth"
 	"github.com/yuyangjack/distribution/registry/client/auth/challenge"

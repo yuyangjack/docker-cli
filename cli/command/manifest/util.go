@@ -3,9 +3,9 @@ package manifest
 import (
 	"context"
 
-	"github.com/yuyangjack/docker-cli/cli/command"
-	"github.com/yuyangjack/docker-cli/cli/manifest/store"
-	"github.com/yuyangjack/docker-cli/cli/manifest/types"
+	"github.com/yuyangjack/dockercli/cli/command"
+	"github.com/yuyangjack/dockercli/cli/manifest/store"
+	"github.com/yuyangjack/dockercli/cli/manifest/types"
 	"github.com/yuyangjack/distribution/reference"
 )
 

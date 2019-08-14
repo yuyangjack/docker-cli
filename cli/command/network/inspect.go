@@ -3,9 +3,9 @@ package network
 import (
 	"context"
 
-	"github.com/yuyangjack/docker-cli/cli"
-	"github.com/yuyangjack/docker-cli/cli/command"
-	"github.com/yuyangjack/docker-cli/cli/command/inspect"
+	"github.com/yuyangjack/dockercli/cli"
+	"github.com/yuyangjack/dockercli/cli/command"
+	"github.com/yuyangjack/dockercli/cli/command/inspect"
 	"github.com/docker/docker/api/types"
 	"github.com/spf13/cobra"
 )

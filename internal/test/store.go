@@ -1,7 +1,7 @@
 package test
 
 import (
-	"github.com/yuyangjack/docker-cli/cli/config/credentials"
+	"github.com/yuyangjack/dockercli/cli/config/credentials"
 	"github.com/docker/docker/api/types"
 )
 

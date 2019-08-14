@@ -3,9 +3,9 @@ package engine
 import (
 	"context"
 
-	"github.com/yuyangjack/docker-cli/cli/command"
-	"github.com/yuyangjack/docker-cli/cli/trust"
-	clitypes "github.com/yuyangjack/docker-cli/types"
+	"github.com/yuyangjack/dockercli/cli/command"
+	"github.com/yuyangjack/dockercli/cli/trust"
+	clitypes "github.com/yuyangjack/dockercli/types"
 	"github.com/yuyangjack/distribution/reference"
 	"github.com/docker/docker/api/types"
 	registrytypes "github.com/docker/docker/api/types/registry"

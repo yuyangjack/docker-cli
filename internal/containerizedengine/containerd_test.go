@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/containerd/containerd"
-	"github.com/yuyangjack/docker-cli/cli/command"
+	"github.com/yuyangjack/dockercli/cli/command"
 	"github.com/docker/docker/api/types"
 	"gotest.tools/assert"
 )

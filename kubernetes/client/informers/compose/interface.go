@@ -1,8 +1,8 @@
 package compose
 
 import (
-	"github.com/yuyangjack/docker-cli/kubernetes/client/informers/compose/v1beta2"
-	"github.com/yuyangjack/docker-cli/kubernetes/client/informers/internalinterfaces"
+	"github.com/yuyangjack/dockercli/kubernetes/client/informers/compose/v1beta2"
+	"github.com/yuyangjack/dockercli/kubernetes/client/informers/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

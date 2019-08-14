@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/yuyangjack/docker-cli/cli/compose/convert"
-	"github.com/yuyangjack/docker-cli/internal/test"
+	"github.com/yuyangjack/dockercli/cli/compose/convert"
+	"github.com/yuyangjack/dockercli/internal/test"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/swarm"
 	"gotest.tools/assert"

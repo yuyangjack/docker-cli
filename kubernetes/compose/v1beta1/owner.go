@@ -1,7 +1,7 @@
 package v1beta1
 
 import (
-	"github.com/yuyangjack/docker-cli/kubernetes/compose/impersonation"
+	"github.com/yuyangjack/dockercli/kubernetes/compose/impersonation"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 )

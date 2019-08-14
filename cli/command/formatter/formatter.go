@@ -7,7 +7,7 @@ import (
 	"text/tabwriter"
 	"text/template"
 
-	"github.com/yuyangjack/docker-cli/templates"
+	"github.com/yuyangjack/dockercli/templates"
 	"github.com/pkg/errors"
 )
 

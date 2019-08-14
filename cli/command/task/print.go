@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/yuyangjack/docker-cli/cli/command"
-	"github.com/yuyangjack/docker-cli/cli/command/formatter"
-	"github.com/yuyangjack/docker-cli/cli/command/idresolver"
-	"github.com/yuyangjack/docker-cli/cli/config/configfile"
+	"github.com/yuyangjack/dockercli/cli/command"
+	"github.com/yuyangjack/dockercli/cli/command/formatter"
+	"github.com/yuyangjack/dockercli/cli/command/idresolver"
+	"github.com/yuyangjack/dockercli/cli/config/configfile"
 	"github.com/docker/docker/api/types/swarm"
 )
 

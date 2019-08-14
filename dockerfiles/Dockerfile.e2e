@@ -26,8 +26,8 @@ RUN curl -Ls https://github.com/theupdateframework/notary/releases/download/${NO
 
 ENV CGO_ENABLED=0 \
     DISABLE_WARN_OUTSIDE_CONTAINER=1 \
-    PATH=/go/src/github.com/yuyangjack/docker-cli/build:$PATH
-WORKDIR /go/src/github.com/yuyangjack/docker-cli
+    PATH=/go/src/github.com/yuyangjack/dockercli/build:$PATH
+WORKDIR /go/src/github.com/yuyangjack/dockercli
 
 # Trust notary CA cert.
 COPY e2e/testdata/notary/root-ca.cert /usr/share/ca-certificates/notary.cert

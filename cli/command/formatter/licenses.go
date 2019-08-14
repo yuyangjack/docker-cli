@@ -3,7 +3,7 @@ package formatter
 import (
 	"time"
 
-	"github.com/yuyangjack/docker-cli/internal/licenseutils"
+	"github.com/yuyangjack/dockercli/internal/licenseutils"
 	"github.com/docker/licensing/model"
 )
 

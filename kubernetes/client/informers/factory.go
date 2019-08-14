@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yuyangjack/docker-cli/kubernetes/client/clientset"
-	"github.com/yuyangjack/docker-cli/kubernetes/client/informers/compose"
-	"github.com/yuyangjack/docker-cli/kubernetes/client/informers/internalinterfaces"
+	"github.com/yuyangjack/dockercli/kubernetes/client/clientset"
+	"github.com/yuyangjack/dockercli/kubernetes/client/informers/compose"
+	"github.com/yuyangjack/dockercli/kubernetes/client/informers/internalinterfaces"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/tools/cache"

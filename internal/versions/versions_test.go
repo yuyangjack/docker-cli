@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	clitypes "github.com/yuyangjack/docker-cli/types"
+	clitypes "github.com/yuyangjack/dockercli/types"
 	"gotest.tools/assert"
 )
 

@@ -7,8 +7,8 @@ import (
 	"net/http/httputil"
 	"strings"
 
-	"github.com/yuyangjack/docker-cli/cli"
-	"github.com/yuyangjack/docker-cli/cli/command"
+	"github.com/yuyangjack/dockercli/cli"
+	"github.com/yuyangjack/dockercli/cli/command"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/pkg/signal"
 	"github.com/docker/docker/pkg/term"

@@ -1,7 +1,7 @@
 package convert
 
 import (
-	composetypes "github.com/yuyangjack/docker-cli/cli/compose/types"
+	composetypes "github.com/yuyangjack/dockercli/cli/compose/types"
 	"github.com/docker/docker/api/types/mount"
 	"github.com/pkg/errors"
 )

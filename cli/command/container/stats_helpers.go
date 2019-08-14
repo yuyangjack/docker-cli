@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yuyangjack/docker-cli/cli/command/formatter"
+	"github.com/yuyangjack/dockercli/cli/command/formatter"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"
 	"github.com/pkg/errors"

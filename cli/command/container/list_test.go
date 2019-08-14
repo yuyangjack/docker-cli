@@ -5,11 +5,11 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/yuyangjack/docker-cli/cli/config/configfile"
-	"github.com/yuyangjack/docker-cli/internal/test"
+	"github.com/yuyangjack/dockercli/cli/config/configfile"
+	"github.com/yuyangjack/dockercli/internal/test"
 	"github.com/docker/docker/api/types"
 	// Import builders to get the builder function as package function
-	. "github.com/yuyangjack/docker-cli/internal/test/builders"
+	. "github.com/yuyangjack/dockercli/internal/test/builders"
 	"gotest.tools/assert"
 	"gotest.tools/golden"
 )

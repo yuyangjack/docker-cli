@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/yuyangjack/docker-cli/cli"
-	"github.com/yuyangjack/docker-cli/cli/command"
-	"github.com/yuyangjack/docker-cli/cli/command/formatter"
+	"github.com/yuyangjack/dockercli/cli"
+	"github.com/yuyangjack/dockercli/cli/command"
+	"github.com/yuyangjack/dockercli/cli/command/formatter"
 	"github.com/docker/docker/api/types"
 	apiclient "github.com/docker/docker/client"
 	"github.com/pkg/errors"

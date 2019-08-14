@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/yuyangjack/docker-cli/cli/trust"
+	"github.com/yuyangjack/dockercli/cli/trust"
 	registrytypes "github.com/docker/docker/api/types/registry"
 	"github.com/theupdateframework/notary/client"
 	"github.com/theupdateframework/notary/passphrase"

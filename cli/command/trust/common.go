@@ -7,9 +7,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/yuyangjack/docker-cli/cli/command"
-	"github.com/yuyangjack/docker-cli/cli/command/image"
-	"github.com/yuyangjack/docker-cli/cli/trust"
+	"github.com/yuyangjack/dockercli/cli/command"
+	"github.com/yuyangjack/dockercli/cli/command/image"
+	"github.com/yuyangjack/dockercli/cli/trust"
 	"github.com/sirupsen/logrus"
 	"github.com/theupdateframework/notary"
 	"github.com/theupdateframework/notary/client"

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/yuyangjack/docker-cli/internal/licenseutils"
+	"github.com/yuyangjack/dockercli/internal/licenseutils"
 	"github.com/docker/licensing/model"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

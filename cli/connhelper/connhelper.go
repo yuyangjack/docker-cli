@@ -16,7 +16,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/yuyangjack/docker-cli/cli/connhelper/ssh"
+	"github.com/yuyangjack/dockercli/cli/connhelper/ssh"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

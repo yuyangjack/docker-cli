@@ -3,8 +3,8 @@ package manifest
 import (
 	"context"
 
-	manifesttypes "github.com/yuyangjack/docker-cli/cli/manifest/types"
-	"github.com/yuyangjack/docker-cli/cli/registry/client"
+	manifesttypes "github.com/yuyangjack/dockercli/cli/manifest/types"
+	"github.com/yuyangjack/dockercli/cli/registry/client"
 	"github.com/yuyangjack/distribution"
 	"github.com/yuyangjack/distribution/reference"
 	"github.com/opencontainers/go-digest"

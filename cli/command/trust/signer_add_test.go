@@ -8,9 +8,9 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/yuyangjack/docker-cli/cli/config"
-	"github.com/yuyangjack/docker-cli/internal/test"
-	notaryfake "github.com/yuyangjack/docker-cli/internal/test/notary"
+	"github.com/yuyangjack/dockercli/cli/config"
+	"github.com/yuyangjack/dockercli/internal/test"
+	notaryfake "github.com/yuyangjack/dockercli/internal/test/notary"
 	"github.com/theupdateframework/notary"
 	"gotest.tools/assert"
 	is "gotest.tools/assert/cmp"

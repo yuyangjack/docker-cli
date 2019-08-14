@@ -10,8 +10,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/yuyangjack/docker-cli/internal/test"
-	"github.com/yuyangjack/docker-cli/internal/test/notary"
+	"github.com/yuyangjack/dockercli/internal/test"
+	"github.com/yuyangjack/dockercli/internal/test/notary"
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/container"
 	"github.com/docker/docker/api/types/network"

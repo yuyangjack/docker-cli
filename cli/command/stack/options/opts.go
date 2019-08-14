@@ -1,6 +1,6 @@
 package options
 
-import "github.com/yuyangjack/docker-cli/opts"
+import "github.com/yuyangjack/dockercli/opts"
 
 // Deploy holds docker stack deploy options
 type Deploy struct {

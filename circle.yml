@@ -39,7 +39,7 @@ jobs:
                 --name $name cli-builder:$CIRCLE_BUILD_NUM \
                 make cross
             docker cp \
-                $name:/go/src/github.com/yuyangjack/docker-cli/build \
+                $name:/go/src/github.com/yuyangjack/dockercli/build \
                 /work/build
       - store_artifacts:
           path: /work/build
@@ -65,7 +65,7 @@ jobs:
           name: "Upload to Codecov"
           command: |
             docker cp \
-                test-$CIRCLE_BUILD_NUM:/go/src/github.com/yuyangjack/docker-cli/coverage.txt \
+                test-$CIRCLE_BUILD_NUM:/go/src/github.com/yuyangjack/dockercli/coverage.txt \
                 coverage.txt
             apk add -U bash curl
             curl -s https://codecov.io/bash | bash || \

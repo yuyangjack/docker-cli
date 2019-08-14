@@ -1,3 +1,3 @@
 package main
 
-import _ "github.com/yuyangjack/docker-cli/cli/winresources"
+import _ "github.com/yuyangjack/dockercli/cli/winresources"

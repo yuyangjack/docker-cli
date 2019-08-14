@@ -11,7 +11,7 @@ import (
 	is "gotest.tools/assert/cmp"
 )
 
-// For https://github.com/yuyangjack/docker-cli/pull/1014#issuecomment-409308139
+// For https://github.com/yuyangjack/dockercli/pull/1014#issuecomment-409308139
 func TestCommandConnEOFWithError(t *testing.T) {
 	ctx := context.TODO()
 	cmd := "sh"

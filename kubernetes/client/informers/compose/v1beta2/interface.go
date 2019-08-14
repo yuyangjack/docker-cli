@@ -1,7 +1,7 @@
 package v1beta2
 
 import (
-	"github.com/yuyangjack/docker-cli/kubernetes/client/informers/internalinterfaces"
+	"github.com/yuyangjack/dockercli/kubernetes/client/informers/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.
